@@ -70,4 +70,21 @@ public class Loop {
 				}			
 			}			
 	}
+	
+	public void isPrime(int n)
+	{
+	    int i = 2;
+		while(i<n)
+		{
+			if(n%i==0 && n==i)
+			{
+				System.out.println("it is not prime dude!");
+			}
+			else
+			{
+				System.out.println("it is  prime dude!");
+			}
+			i++;
+		}
+	}
 }

@@ -6,8 +6,7 @@ public class Executor {
 	{
 	 
 		Loop loop = new Loop();
-		loop.fibonacci(10);
-		
+		loop.isPrime(10);
 		
 	
 	}
