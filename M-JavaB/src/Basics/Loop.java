@@ -7,7 +7,7 @@ public class Loop {
 
 	public void printTable(int input) 
 	{
-		for(int i=1;i<10;i++)
+		for(int i=3;i<10;i++)
 		{
 			System.out.println(input +  "*"  +  i   + "="  + i*input);
 		}
@@ -73,18 +73,16 @@ public class Loop {
 	
 	public void isPrime(int n)
 	{
-	    int i = 2;
-		while(i<n)
+	for(int i =2;i<=n;i++)
+	{
+		if(n%i==0)
 		{
-			if(n%i==0 && n==i)
-			{
-				System.out.println("it is not prime dude!");
-			}
+			if(n==i)
+				System.out.println("it is prime");
 			else
-			{
-				System.out.println("it is  prime dude!");
-			}
-			i++;
-		}
+				System.out.println("it is not prime");
+			    i=n;
+		}		
+	}		
 	}
 }
